@@ -1,0 +1,31 @@
+>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="F_Alumnos.CSS">
+    <title>Registros Estudiantes</title>
+</head>
+<body>
+    <p>Registro de Estudiantes</p>
+    <div class="cuadro">
+        <form  method="post">
+            <img src="327527.png" width="200" height="200">
+        <br><br>
+        <input pattern="[\w]{5,15}" required type="text" placeholder="Usuario">
+        <br> <br>
+        <input pattern="[a-z A-Z ñ Ñ]{3,65}" required type="text" placeholder="Nombres">
+        <br> <br>
+        <input pattern="[a-z A-Z ñ Ñ]{3,65}" required type="text" placeholder="Apellidos">
+        <br><br>
+        <input pattern="[0-9]{6,18}" required type="text" placeholder="Telefono">
+        <br> <br>
+        <textarea pattern="[\w]{10,150}" required cols="30" rows="4" placeholder="Direccion"></textarea> 
+        <br><br>
+        <input type="submit" value="Registrar">
+        </form>
+    </div>
+    
+</body>
+</html>
