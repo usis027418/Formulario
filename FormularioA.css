@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 25px;
@@ -13,9 +13,10 @@ body p{
     text-align: center;
 }
 .cuadro{
+    border-radius: 110px 110px 110px 110px;
     padding: 25px;
-    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
-    background-color: #222222d0;
+    box-shadow: 0 0 20px 0 rgb(255, 0, 0);
+    background-color: #000000d0;
     text-align: center;
 }
 img{
@@ -31,7 +32,7 @@ textarea{
     height: auto;
 }
 input[type=submit]{
-    background-color: #ca770b;
+    background-color: #aa0169;
     color: black;
     text-transform: uppercase;
     height: 30px;
@@ -50,7 +51,7 @@ textarea:valid{
 }
 input[type=text]:invalid,
 textarea:invalid{
-    border-bottom: solid 5px #ca770b;
+    border-bottom: solid 5px #aa0169;
 }
 label{
     color: blanchedalmond;
